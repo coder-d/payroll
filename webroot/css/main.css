@@ -1,0 +1,440 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background: #ffffff;
+	color: #000000;
+	font-family:arial,'lucida grande',sans-serif,verdana,helvetica;
+	font-size:90%;
+}
+#wrapper{ text-align:left;
+  width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom:auto;
+  min-height:100%;
+    
+}
+* html #wrapper { 
+height:100%; /* IE6 treats height as min-height */
+}
+.main_body{}
+li{list-style-type: none!important;}
+a {text-decoration:none;}
+/** Login **/
+.login_box{ margin:15% 0 0 25%;width:600px;height:315px;border:3px solid #ff0000;}
+.header_bar{width:100%;height:20px;background:#ff0000;text-align:left;font-size:14px;color:#ffffff}
+.header_box{background:#dbdbdb;margin:5px 5px 2px 5px;height:30px;}
+.header_box p{font-weight:14px!important;font-weight:bold;line-height:35px;margin-left:3px}
+.login{background:#f0f0f0;margin:0 5px 5px 5px;width:590px;height:245px}
+.username,.ppassword{background:#dbdbdb;float:left;display:inline;width:475px;height:45px;border:1px solid #ffffff;margin:12px 0 0 55px;
+          text-align:center;font-size:12px;font-weight:bold;margin-bottom:5px;clear:both;
+          }
+.username input,.ppassword input{width:265px;height:25px;border:1px solid #9b9b9b;margin-left:10px}
+.username input,.username label,.ppassword input,.ppassword label{margin-top:10px;}
+/** **/
+
+/** Top **/
+.top{height:135px;color:#777777;font-size:12px}
+.top a {color:#000000}
+.top_left{width:48%;height:70px;float:left;display:inline;}
+.top_right{width:48%;height:70px;float:left;display:inline;margin-left:2px}
+.top_right ul{margin-left:100px}
+.top_right li{line-height:1.5em;float:left;display:inline;margin-left:25px}
+.nav{clear:both;margin-top:15px;}
+.nav li{background:url(../img/nav_bg.png);height:27px;border:1px solid #dedcd7;float:left;display:inline;
+        line-height:2.3em;font-weight:bold}
+.nav li a{margin:0 12px 0 12px;}
+.nav_line{clear:both;margin-top:5px;background:#ff0000;height:10px;}
+/** **/
+
+/** New Employee **/
+.new_employee{background:#ffffff;width:800px;border:3px solid #ff0000;margin:0 auto;}
+.ne_box_background{background:#dbdbdb;margin:0 5px 5px 5px;}
+.ne_input_box{float:left;display:inline;width:335px;border:1px solid #ffffff;margin:5px 0 0 15px;
+          text-align:center;font-size:12px;font-weight:bold;margin-bottom:5px;clear:both;
+          }
+.ne_box_background ul{width:100%;}
+.ne_box_background li{float:left;display:inline;padding-left:0px;width:350px}
+.ne_input_box label{float:left;display:inline;margin:7px 0 0 3px;width:75px}
+.ne_input_box input,.ne_input_box textarea,#EmployeeSex,#EmployeeBloodGroup,#EmployeeDepartment,#EmployeeDesignation,#EmployeeShift,#EmployeeMedicalInsurance,#EmployeeJoiningDate,#EmployeeEmployeeType,#EmployeeCurrentStatus,#AttendanceStatus{width:245px;height:20px;border:1px solid #9b9b9b;margin:5px 0 0 5px}
+.ne_input_box textarea{height:100px;}
+#EmployeeDobDay,#EmployeeJoiningDateDay,#joining_dateDay,#dobDate{width:50px;height:20px;border:1px solid #9b9b9b;}
+#EmployeeDobMonth,#EmployeeJoiningDateMonth,#dobMonth{width:102px;height:20px;border:1px solid #9b9b9b;}
+#EmployeeDobYear,#EmployeeJoiningDateYear,#dobYear{width:87px;height:20px;border:1px solid #9b9b9b;}
+.ne_dob label,.ne_joining_date label{float:left;display:inline;margin:7px 0 0 3px;width:75px}
+.ne_select label{float:left;display:inline;margin:7px 0 0 3px;width:75px}
+.edit{float:right;display:inline;margin-left:15px}
+.edit a{color:#ffffff;}
+.profile_picture_edit{margin-top:10px;}
+.profile_picture_edit a{color:#000000;font-weight:bold;font-size:12px}
+/**.form-error auto created by cakephp **/
+.form-error{clear:both}
+/** **/
+
+/**Employee List **/
+.employee_contianer{clear:both;margin-top:10px;}
+.employee_list{width:100%;}
+.employee_list_left{float:left;display:inline;width:24%;}
+.employee_search_bar{background:#d9d9d9;;font-size:12px;font-weight:bold;margin-left:10px}
+.employee_search_bar p,.employee_search_bar li{margin-left:10px;}
+.employee_search_bar ul{margin-top:10px;}
+.employee_search_bar li input,.search_dropdown{margin:5px 0 5px 0!important;width:190px!important;height:21px!important;border:1px solid #9b9b9b!important}
+#search_joining_dateDay{width:40px!important;height:20px!important;border:1px solid #9b9b9b!important;}
+#search_joining_dateMonth{width:90px!important;height:20px!important;border:1px solid #9b9b9b!important;}
+#search_joining_dateYear{width:56px!important;height:20px!important;border:1px solid #9b9b9b!important;}
+.employee_search_bar li p{color:#000000!important;margin:5px 0 0 125px;font-size:11px}
+.employee_list_right{float:left;display:inline;margin-left:20px;width:73%}
+.employee_display_top{background:#ff0000;width:100%;height:50px;font-size:13px;font-weight:bold;color:#ffffff}
+.employee_display_top p{float:left;display:inline;margin:10px 0 0 10px}
+.employee_display_top p{line-height:30px;}
+.employee_links,.employee_links a {font-size:13px;color:#777777;width:100%}
+.employee_links li{float:left;display:inline;margin:5px 0 0 10px;}
+.employee_container{}
+.personal_details{clear:both;background:red;float:left;display:inline;margin-top:25px;background:#ffffff;width:100%;height:100%;border:3px solid #ff0000 }
+.employee_pic{width:175px;float:left;display:inline;margin:5px 0 0 5px}
+.employee_personal_info{width:75%;float:left;display:inline;}
+.employee_personal_info li{width:100%;}
+.employee_info_box,.employee_info_box2{float:left;display:inline;width:75%;border:1px solid #ffffff;margin:5px 0 0 15px;
+          text-align:left;font-size:12px;font-weight:bold;margin-bottom:5px;clear:both;
+          }
+.employee_info_box p,.employee_info_box2 p{line-height:25px;margin-left:5px;}
+.employment_details{clear:both;float:left;display:inline;background:red;margin-top:25px;background:#ffffff;width:100%;height:100%;border:3px solid #ff0000 }
+
+ .employee_info_box2 p{line-height:25px;margin-left:5px;}         
+.employee_employment_info{width:100%;} 
+.employee_employment_info li{float:left;display:inline;width:360px;} 
+.no_result{background:#ff0000;width:100%;height:50px;text-align:center;color:#ffffff} 
+.no_result p{font-weight:bold;line-height:35px}
+    
+/** **/
+
+/** Employee Attendance **/
+.update_attendance,.search_attendance{float:left;display:inline;text-align:center;margin-top:15px;background:#ffffff;width:725px;border:3px solid #ff0000}
+.update_attendance ul,.search_attendance ul{text-align:left;}
+.attendance_mark li{width:100%;margin:0 0 10px 160px}
+.today_attendance label, .search_attendance_edit label,.search_attendance_results label{ float:left;display:inline;width:100px}
+.today_attendance input, .search_attendance_edit input,.search_attendance_results input{margin-left:8px;float:left;display:inline}
+#AttendanceOvertime{width:243px;}
+#AttendanceStatus{}
+.attendance_time{margin-left:8px;width:117px;}
+/** **/
+
+/**Generate Salaryslip **/
+.attendance_summary,.generate_payslip{clear:both;background:red;float:left;display:inline;margin-top:25px;background:#ffffff;width:100%;height:100%;border:3px solid #ff0000 }
+.attendance_summary a{color:#000000;}
+.attendance_summary_info,.generate_payslip_info{width:100%;} 
+.attendance_summary_info li,.generate_payslip_info li{float:left;display:inline;width:360px;} 
+.salary_calc{margin-left:15px;clear:both;width:630px;border:1px solid #ffffff}
+.salary_calc ul{float:left;display:inline;margin:5px 0 0 15px;}
+.salary_calc li{width:620px;}
+.salary_calc li p{float:left;display:inline;font-weight:bold;font-size:12px}
+.pleft{width:325px}
+.pmiddle{width:185px;}
+.pright{width:75px;}
+.salary_record input{width:75px;}
+/** **/
+
+/** Indicators **/
+
+#search_busy-indicator,.link_busy-indicator{margin-bottom:5px;display:none}
+
+/** **/
+
+/** Notices and Errors **/
+.message {
+	clear: both;
+	color: #fff;
+	font-size: 140%;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	padding: 5px;
+}
+
+.success,
+.message,
+.cake-error,
+.cake-debug,
+.notice,
+p.error,
+.error-message {
+	background: #ffcc00;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -ms-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffcc00), to(#E6B800));
+	background-image: -webkit-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: -o-linear-gradient(top, #ffcc00, #E6B800);
+	background-image: linear-gradient(top, #ffcc00, #E6B800);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 18px;
+	padding: 7px 14px;
+	color: #404040;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.success,
+.message,
+.cake-error,
+p.error,
+.error-message {height:10px!important;padding-bottom:15px;
+	clear: both;
+	color: #fff;
+	background: #c43c35;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -ms-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ee5f5b), to(#c43c35));
+	background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
+	background-image: linear-gradient(top, #ee5f5b, #c43c35);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.success {
+	clear: both;
+	color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background: #3B8230;
+	background-repeat: repeat-x;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#76BF6B), to(#3B8230));
+	background-image: -webkit-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -moz-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -ms-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: -o-linear-gradient(top, #76BF6B, #3B8230);
+	background-image: linear-gradient(top, #76BF6B, #3B8230);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+p.error {
+	font-family: Monaco, Consolas, Courier, monospace;
+	font-size: 120%;
+	padding: 0.8em;
+	margin: 1em 0;
+}
+p.error em {
+	font-weight: normal;
+	line-height: 140%;
+}
+.notice {
+	color: #000;
+	display: block;
+	font-size: 120%;
+	padding: 0.8em;
+	margin: 1em 0;
+}
+.success {
+	color: #fff;
+}
+/** Debugging **/
+pre {
+	color: #000;
+	background: #f0f0f0;
+	padding: 15px;
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.cake-debug-output {
+	padding: 0;
+	position: relative;
+}
+.cake-debug-output > span {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: rgba(255, 255, 255, 0.3);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 5px 6px;
+	color: #000;
+	display: block;
+	float: left;
+	-moz-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.5);
+	box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.5);
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+.cake-debug,
+.cake-error {
+	font-size: 16px;
+	line-height: 20px;
+	clear: both;
+}
+.cake-error > a {
+	text-shadow: none;
+}
+.cake-error {
+	white-space: normal;
+}
+.cake-stack-trace {
+	background: rgba(255, 255, 255, 0.7);
+	color: #333;
+	margin: 10px 0 5px 0;
+	padding: 10px 10px 0 10px;
+	font-size: 120%;
+	line-height: 140%;
+	overflow: auto;
+	position: relative;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.cake-stack-trace a {
+	text-shadow: none;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0px 4px 10px 2px;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	display: inline-block;
+	text-decoration: none;
+	-moz-box-shadow: inset 0px 1px 0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: inset 0px 1px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.cake-code-dump pre {
+	position: relative;
+	overflow: auto;
+}
+.cake-context {
+	margin-bottom: 10px;
+}
+.cake-stack-trace pre {
+	color: #000;
+	background-color: #F0F0F0;
+	margin: 0px 0 10px 0;
+	padding: 1em;
+	overflow: auto;
+	text-shadow: none;
+}
+.cake-stack-trace li {
+	padding: 10px 5px 0px;
+	margin: 0 0 4px 0;
+	font-family: monospace;
+	border: 1px solid #bbb;
+	-moz-border-radius: 4px;
+	-wekbkit-border-radius: 4px;
+	border-radius: 4px;
+	background: #dcdcdc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#dcdcdc));
+	background-image: -webkit-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: -moz-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: -ms-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: -o-linear-gradient(top, #fefefe, #dcdcdc);
+	background-image: linear-gradient(top, #fefefe, #dcdcdc);
+}
+/* excerpt */
+.cake-code-dump pre,
+.cake-code-dump pre code {
+	clear: both;
+	font-size: 12px;
+	line-height: 15px;
+	margin: 4px 2px;
+	padding: 4px;
+	overflow: auto;
+}
+.cake-code-dump .code-highlight {
+	display: block;
+	background-color: rgba(255, 255, 0, 0.5);
+}
+.code-coverage-results div.code-line {
+	padding-left:5px;
+	display:block;
+	margin-left:10px;
+}
+.code-coverage-results div.uncovered span.content {
+	background:#ecc;
+}
+.code-coverage-results div.covered span.content {
+	background:#cec;
+}
+.code-coverage-results div.ignored span.content {
+	color:#aaa;
+}
+.code-coverage-results span.line-num {
+	color:#666;
+	display:block;
+	float:left;
+	width:20px;
+	text-align:right;
+	margin-right:5px;
+}
+.code-coverage-results span.line-num strong {
+	color:#666;
+}
+.code-coverage-results div.start {
+	border:1px solid #aaa;
+	border-width:1px 1px 0px 1px;
+	margin-top:30px;
+	padding-top:5px;
+}
+.code-coverage-results div.end {
+	border:1px solid #aaa;
+	border-width:0px 1px 1px 1px;
+	margin-bottom:30px;
+	padding-bottom:5px;
+}
+.code-coverage-results div.realstart {
+	margin-top:0px;
+}
+.code-coverage-results p.note {
+	color:#bbb;
+	padding:5px;
+	margin:5px 0 10px;
+	font-size:10px;
+}
+.code-coverage-results span.result-bad {
+	color: #a00;
+}
+.code-coverage-results span.result-ok {
+	color: #fa0;
+}
+.code-coverage-results span.result-good {
+	color: #0a0;
+}
+
+/* Paging */
+div.paging {font-family:'Trebuchet MS'!important;
+	color:black;
+	margin-bottom: 2em;margin-top:10px;
+}
+div.paging a{
+	color:black;
+	margin-bottom: 2em;
+}
+div.paging div.disabled {
+	color:black;
+	display:inline;
+}
+div.paging div.disabled a {
+	color:black;
+	display:inline;
+}
+div.paging span {
+	color:black;
+}
+div.paging span.current {
+	color:red;
+}
+div.paging span a {
+	color:black;
+}
+
+
+/** Elements **/
+#url-rewriting-warning {
+	display:none;
+}
