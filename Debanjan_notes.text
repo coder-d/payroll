@@ -1,9 +1,0 @@
-function beforeFilter(){
-
-         $this->Auth->authenticate = array(
-AuthComponent::ALL => array('userModel' => 'User', 'scope' => array("User.role" => array(1,2)),
-'Form'));
-
- 
-
-}
